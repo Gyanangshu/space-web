@@ -108,11 +108,8 @@ textarea {
     }
 
     .footer__container {
-        display: grid;
         grid-template-columns: repeat(1, 2fr);
-        gap: 2.5rem 0;
-        justify-items: center;
-        margin-inline: 2rem;
+        margin-inline: 0rem;
 
         padding-top: 5rem;
     }
