@@ -23,15 +23,12 @@ const Contact = () => {
           <div className="form__info">
 
             <div className="form__info-container">
-              <form target='__blank' action="https://formsubmit.co/your@email.com" method='POST' className='form'>
+              <form target='__blank' action="https://formsubmit.co/enquiry@hypermediaglobal.com" method='POST' className='form'>
 
                 <div className="form__personal-info">
                   <input type="text" name='fname' className='form__name' placeholder='First Name' required />
-
                   <input type="text" name='lname' className='form__name' placeholder='Last Name' required />
-
                   <input type="email" name='email' className='form__name' placeholder='Email' required />
-
                   <input type="number" name='phone-number' className='form__name' placeholder='Phone' required />
                 </div>
 
