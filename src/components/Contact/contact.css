@@ -158,7 +158,7 @@ textarea {
         grid-template-columns: repeat(1, 2fr);
         gap: 2.5rem 0;
         margin-inline: 5rem;
-        justify-items: start;
+        justify-items: center;
 
         padding-top: 5rem;
     }

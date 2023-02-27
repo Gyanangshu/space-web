@@ -91,17 +91,17 @@
 
 @media (min-width: 767px) {
     .service__section {
-        height: 1150px;
+        height: 1210px;
     }
 
     .card{
-    height: 15rem;
+    height: 23rem;
     width: 19rem;
 }
 
 
     .service__container {
-        margin-inline: 8rem;
+        margin-inline: 5rem;
         padding-top: 3rem;
     }
 
@@ -122,9 +122,13 @@
 
 @media (min-width: 992px) {
     .service__section {
-        height: 1150px;
+        height: 1210px;
     }
 
+    .card{
+    height: 15rem;
+    width: 19rem;
+}
 
     .service__container {
         margin-inline: 8rem;
@@ -151,6 +155,10 @@
         height: 100vh;
     }
 
+    .card{
+    height: 15rem;
+}
+
 
     .service__container {
         margin-inline: 2rem;
@@ -160,7 +168,7 @@
     .service__cards {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 1.5rem 2rem;
+        gap: 1.5rem 0.4rem;
     }
 
     .card__description {
@@ -176,6 +184,10 @@
     .service__section {
         height: 1200px;
     }
+
+    .card{
+    height: 23rem;
+}
 
     .card__title{
         font-size: 1.2rem;
