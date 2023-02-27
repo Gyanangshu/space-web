@@ -152,7 +152,7 @@
         font-size: 1.2rem;
         line-height: 1.7rem;
         margin-top: 1rem;
-        width: 40rem;
+        width: 60rem;
     }
 
     .hero__call{    
@@ -170,33 +170,11 @@
 }
 
 @media screen and (min-width: 1400px){
-    /* .hero__heading{
-        font-size: 3.2rem;
-        margin-top: 10rem;
-    } */
-
-    .hero__tagline{
-        font-size: 1.2rem;
-        line-height: 1.7rem;
-        margin-top: 1rem;
-        width: 40rem;
-    }
-
-    /* .btn{
-        height: 3rem;
-    
-    } */
-
-    .hero__call{    
-        margin-top: 100px;
-    }
 
     .hero__button-text{
         font-size: 0.9rem;
         width: 16rem;
     }
 
-    .hero__term{
-        font-size: 0.8rem;
-    }
+
 }
