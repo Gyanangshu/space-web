@@ -1,0 +1,149 @@
+.testimonial__section{
+    background-image: url('../../images/bg4.png');
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover;
+
+    height: 800px;
+}
+
+.testimonial__container{
+    margin-inline: 8rem;
+    padding-top: 8rem;
+}
+
+.testimonial__card-container{
+    margin-top: 2rem;
+}
+
+/* .testimonial__card{
+    display: flex;
+    gap: 3rem;
+} */
+
+.card__content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    margin-inline: 0.5rem;
+    
+    padding: 1rem;
+    height: 22rem;
+    border-radius:15px;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: saturate(180%) blur(10px);
+}
+
+.card__content img{
+    padding: 1rem;
+}
+
+.slide{
+    /* opacity: .5; */
+    transform: scale(.7);
+    transition: .5s;
+    backdrop-filter: blur(10px);
+}
+
+.slide img{
+    width: 100%;
+    height: 350px;
+}
+
+
+.slide-active{
+    backdrop-filter: blur(0px);
+    opacity: 1;
+    transform: scale(1);
+}
+
+.testimonial__title{
+    text-align: end;
+    margin-bottom: 4rem;
+}
+
+.testimonial__text{
+    color: white;
+}
+
+.testimonial__para{
+    color:white;
+}
+
+.testimonial__user-name{
+    color:white;
+    margin-top: 0.5rem;
+    font-weight: 700;
+}
+
+@media (max-width: 576px) {
+
+.testimonial__container{
+    margin-inline: 3rem;
+    padding-top: 7rem;
+}
+
+.testimonial__para{
+    font-size: 0.75rem;
+}
+
+.user__img{
+    height: 4.9rem;
+}
+
+.testimonial__user-name{
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+}
+
+@media (min-width: 767px) {
+    .testimonial__container{
+        margin-inline: 3rem;
+        padding-top: 7rem;
+    }
+    
+    .testimonial__para{
+        font-size: 0.75rem;
+    }
+    
+    .user__img{
+        height: 4.9rem;
+    }
+    
+    .testimonial__user-name{
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (min-width: 992px) {
+    
+
+}
+
+@media (min-width: 1200px) {
+    .testimonial__container{
+        margin-inline: 12rem;
+        padding-top: 8rem;
+    }
+
+    .user__img{
+        height: auto;
+    }
+
+    .testimonial__user-name{
+        font-size: 1rem;
+        margin-top: 1rem;
+        font-weight: 700;
+    }
+
+    .testimonial__para{
+        font-size: 0.9rem;
+    }
+}
