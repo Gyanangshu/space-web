@@ -79,6 +79,10 @@
     font-weight: 700;
 }
 
+.testimonial__user-name:last-of-type{
+   margin-top: auto;
+}
+
 @media (max-width: 576px) {
 
 .testimonial__container{

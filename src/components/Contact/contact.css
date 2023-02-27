@@ -91,12 +91,18 @@ textarea {
 .info__icons {
     display: flex;
     column-gap: 3rem;
+    justify-content: center;
 
     margin-top: 4rem;
     cursor: pointer;
 }
 
 @media (max-width: 576px) {
+
+    .form{
+        align-items: center;
+    }
+
     .footer__section {
         height: 1200px;
     }
@@ -117,11 +123,13 @@ textarea {
     }
 
     .section__title {
-        font-size: 2.2rem;
+        font-size: 1.9rem;
+        text-align: center;
     }
 
     textarea {
-        width: 16rem;
+        width: 19rem;
+        margin-left: 1rem;
     }
 
     .form__personal-info {
@@ -142,8 +150,8 @@ textarea {
     .info__icons {
         flex-direction: row !important;
         column-gap: 2rem;
+        justify-content: center;       
     }
-
 
     .info {
         flex-direction: column;
@@ -161,6 +169,10 @@ textarea {
         justify-items: center;
 
         padding-top: 5rem;
+    }
+
+    .info__icons {
+       justify-content: center;       
     }
 
 }
