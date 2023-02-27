@@ -24,6 +24,10 @@
     margin-top: 4rem;
 }
 
+.about__button-text{
+    font-size: 1rem;
+}
+
 @media (max-width: 576px) {
     .about__content {
         margin-top: 3rem;
@@ -111,7 +115,7 @@
     }
 
     .about__button-text {
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
 }
 
@@ -128,7 +132,9 @@
         font-size: 2.2rem;
     }
 
-    
+    .btn{
+        width: 21rem;
+    }
 
     .about__description {
         color: white;
@@ -144,42 +150,9 @@
         height: 3rem;
     }
 
-    .about__button-text {
-        font-size: 1rem;
-    }
+
 }
 
 @media screen and (min-width: 1400px) {
-    .about__section {
-        height: 800px;
-    }
-    .about__content {
-        margin-top: 3rem;
-        margin-inline: 4rem;
-    }
-
-    .about__title{
-        font-size: 2.5rem;
-    }
-
-    .about__description {
-        color: white;
-        text-transform: uppercase;
-        margin-top: 2.5rem;
-        line-height: 1.8rem;
-        font-weight: 600;
-        font-size: 1.3rem;
-    }
-    .btn{
-        width: 22rem;
-    }
-
-    .about__button {
-        margin-top: 6rem;
-        height: 3.8rem;
-    }
-
-    .about__button-text {
-        font-size: 1.1rem;
-    }
+   
 }

@@ -172,7 +172,7 @@
 
     .service__cards {
         display: grid;
-        grid-template-columns: repeat(2, 2fr);
+        grid-template-columns: repeat(4, 2fr);
         gap: 2rem 2rem;
     }
 

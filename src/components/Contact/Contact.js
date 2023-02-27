@@ -9,7 +9,7 @@ import path1 from "../../images/Path1.png";
 import path2 from "../../images/Path2.png";
 import path3 from "../../images/Path3.png";
 import path4 from "../../images/Path4.png";
- 
+
 const Contact = () => {
   return (
     <footer className='footer__section' id='contact'>
@@ -78,10 +78,10 @@ const Contact = () => {
           </div>
 
           <div className="info info__icons">
-            <a href="https://www.instagram.com" target='__blank'><img src={path1} alt="instagram" /></a>
-            <a href="https://www.facebook.com" target='__blank'><img src={path2} alt="facebook" /></a>
-            <a href="https://www.tiktok.com" target='__blank'><img src={path3} alt="tik-tok" /></a>
-            <a href="https://www.youtube.com" target='__blank'><img src={path4} alt="youtube" /></a>
+            <a href="https://www.instagram.com/hypermedia_group/?fbclid=IwAR0kgrAf9rHt_xYlRWQreMZw0KdloAK3fy0walrpe5JFVFfXtI5QkiVo8Vk" target='__blank'><img src={path1} className='icon__img' alt="instagram" /></a>
+            <a href="https://www.facebook.com/hypermediagroup" target='__blank'><img src={path2} className='icon__img' alt="facebook" /></a>
+            <a href="https://www.tiktok.com/@vineshvarma12?fbclid=IwAR3HbvsMJXo1M9mFre1rlzxXayN8n-pS-REHi_-t0HaXK1ME9CLRA6VW_gU" target='__blank'><img src={path3} className='icon__img' alt="tik-tok" /></a>
+            <a href="https://www.youtube.com/@hypermediaTV/featured" target='__blank'><img src={path4} className='icon__img' alt="youtube" /></a>
           </div>
 
         </div>

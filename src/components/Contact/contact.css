@@ -1,4 +1,4 @@
-.footer__section{
+.footer__section {
     background-image: url('../../images/bg5.png');
     background-position: center center;
     background-attachment: fixed;
@@ -7,39 +7,39 @@
     height: 100vh;
 }
 
-.footer__container{
+.footer__container {
     display: grid;
-    grid-template-columns: repeat(2,2fr);
+    grid-template-columns: repeat(2, 2fr);
     justify-items: center;
     gap: 2.5rem 0;
     margin-inline: 10rem;
     padding-top: 9rem;
 }
 
-.footer__info{
+.footer__info {
     padding: 1rem;
     display: grid;
     max-width: 30rem;
 }
 
-.form__info-container{
+.form__info-container {
     max-width: 400px;
     margin-top: 2rem;
     margin-right: 2rem;
 }
 
-.form{
+.form {
     display: flex;
     flex-direction: column;
 }
 
-.form__personal-info{
+.form__personal-info {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem 1rem;
 }
 
-.form__name{
+.form__name {
     width: max-content;
     height: 2.5rem;
     border-radius: 20px;
@@ -47,7 +47,7 @@
     text-align: center;
 }
 
-textarea{
+textarea {
     margin-top: 2rem;
     border-radius: 12px;
     padding: 10px;
@@ -55,18 +55,18 @@ textarea{
     width: 26rem;
 }
 
-::placeholder{
+::placeholder {
     color: black;
     font-family: 'Poppins';
     font-weight: 600;
 }
 
-.form__button{
+.form__button {
     margin-top: 1.8rem;
-    width: 10rem ;
+    width: 10rem;
 }
 
-.info{
+.info {
     display: flex;
     align-items: center;
 
@@ -74,16 +74,16 @@ textarea{
     margin-bottom: 12px;
 }
 
-.info img{
+.info img {
     height: 2rem;
     width: 2rem;
 }
 
-.info__text{
+.info__text {
     color: white;
 }
 
-.info__icons{
+.info__icons {
     display: flex;
     column-gap: 3rem;
 
@@ -92,99 +92,118 @@ textarea{
 }
 
 @media (max-width: 576px) {
-.footer__section{
-    height: 1200px;
-}
+    .footer__section {
+        height: 1200px;
+    }
 
-.footer__container{
-    display: grid;
-    grid-template-columns: repeat(1,2fr);
-    gap: 2.5rem 0;
-    margin-inline: 2rem;
-    justify-items: start;
+    .footer__container {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        gap: 2.5rem 0;
+        margin-inline: 2rem;
+        justify-items: start;
 
-    padding-top: 5rem;
-}
+        padding-top: 5rem;
+    }
 
-.info__text{
-    font-size: 0.9rem;
-    
-}
+    .info__text {
+        font-size: 0.9rem;
 
-.section__title{
-    font-size: 2.2rem;
-}
+    }
 
-textarea{
-    width: 16rem;
-}
+    .section__title {
+        font-size: 2.2rem;
+    }
 
-.form__personal-info{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    gap: 1rem 0.5rem;
-}
+    textarea {
+        width: 16rem;
+    }
 
-.footer__info{
-    text-align: center;
-    padding: 1rem;
-    display: grid;
+    .form__personal-info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem 0.5rem;
+    }
 
-    max-width: 22rem;
-    min-width: 17rem;
-}
+    .footer__info {
+        text-align: center;
+        padding: 1rem;
+        display: grid;
 
-.info__icons{
-    flex-direction: row !important;
-    column-gap: 2rem;
-}
+        max-width: 22rem;
+        min-width: 17rem;
+    }
 
-.info{
-    flex-direction: column;
-    row-gap: 0.5rem;
-}
+    .info__icons {
+        flex-direction: row !important;
+        column-gap: 2rem;
+    }
+
+
+    .info {
+        flex-direction: column;
+        row-gap: 0.5rem;
+    }
 
 }
 
 @media (min-width: 768px) {
-    .footer__container{
+    .footer__container {
         display: grid;
-        grid-template-columns: repeat(1,2fr);
+        grid-template-columns: repeat(1, 2fr);
         gap: 2.5rem 0;
         margin-inline: 5rem;
         justify-items: start;
-    
+
         padding-top: 5rem;
     }
 
 }
 
 @media (min-width: 992px) {
-    .footer__container{
+    .footer__container {
         display: grid;
-        grid-template-columns: repeat(2,2fr);
+        grid-template-columns: repeat(2, 2fr);
         gap: 2.5rem 0;
         margin-inline: 4rem;
         justify-items: stretch;
 
-    
+
         padding-top: 5rem;
     }
 }
 
 @media (min-width: 1200px) {
-    .footer__container{
+    .footer__container {
         display: grid;
-        grid-template-columns: repeat(2,2fr);
+        grid-template-columns: repeat(2, 2fr);
         gap: 2.5rem 0;
         margin-inline: 4rem;
         justify-items: center;
 
-    
+
         padding-top: 8rem;
     }
+
+    .footer__info {
+        height: 30rem;
+        width: 30rem;
+    }
+
+    textarea {
+        height: 10rem;
+        width: 30rem;
+    }
+
+    .form__name{
+        width: 14rem;
+        height: 3rem;
+    }
+
+    .footer__title{
+        font-size: 3rem;
+    }
+
 }
 
-@media screen and (min-width: 1400px) {
-    
-}
+@media screen and (min-width: 1400px) {}
