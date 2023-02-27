@@ -58,8 +58,13 @@
 
 @media (max-width: 576px) {
     .service__section {
-        height: 2050px;
+        height: 2200px;
     }
+
+    .card{
+    height: 14rem;
+    width: 20rem;
+}
 
 
     .service__container {
@@ -71,6 +76,7 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 1.5rem 1rem;
+        justify-items: center;
     }
 
     .card__description {
@@ -87,6 +93,11 @@
     .service__section {
         height: 1150px;
     }
+
+    .card{
+    height: 15rem;
+    width: 19rem;
+}
 
 
     .service__container {
@@ -137,12 +148,12 @@
 
 @media (min-width: 1200px) {
     .service__section {
-        height: 700px;
+        height: 100vh;
     }
 
 
     .service__container {
-        margin-inline: 8rem;
+        margin-inline: 2rem;
         padding-top: 3rem;
     }
 
@@ -167,11 +178,11 @@
     }
 
     .card__title{
-        font-size: 1.8rem;
+        font-size: 1.2rem;
     }
 
     .service__container {
-        margin-inline: 12rem;
+        margin-inline: 4rem;
         padding-top: 3rem;
     }
 

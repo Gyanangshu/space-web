@@ -54,7 +54,7 @@ const Contact = () => {
         </div>
 
         {/* footer info */}
-        <div className="footer__info card">
+        <div className="footer__info ">
 
           <div className="info">
             <img src={location} alt="location" />
