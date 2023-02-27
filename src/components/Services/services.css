@@ -30,6 +30,11 @@
     width: 4rem;
 }
 
+.card{
+    height: 22rem;
+    width: 19rem;
+}
+
 .service__cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
