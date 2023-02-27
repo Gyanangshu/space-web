@@ -91,7 +91,7 @@
 
 @media (min-width: 767px) {
     .service__section {
-        height: 1210px;
+        height: 1200px;
     }
 
     .card{
@@ -200,6 +200,7 @@
 
     .service__cards {
         gap: 2rem 2rem;
+        margin-top: 7rem;
     }
 
     .card__description {

@@ -8,6 +8,9 @@
     align-items: center;
     text-align: center;
 
+    position: relative;
+    bottom: 3rem;
+
     padding-inline: 2.5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
