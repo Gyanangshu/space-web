@@ -6,7 +6,7 @@ import Countup from './Countup';
  
 const Number = () => {
     return (
-        <div className='number__section'>
+        <div className='number__section' >
             <div className='number__container'> 
                 <div className='number__container-box'>
                     <p className="numbers p__poppins"><Countup end={10000} start={2000} timer={50} style={{color:"#50C878"}}/></p>

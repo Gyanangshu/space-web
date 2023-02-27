@@ -6,7 +6,7 @@ import Number from './Number';
 
 const About = () => {
   return (
-    <section className='about__section' id='about'>
+    <section className='about__section' id="about">
       <Number />
 
       <div className='about__content'>
