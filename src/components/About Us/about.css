@@ -133,7 +133,7 @@
 
     .about__content {
         margin-top: 3rem;
-        margin-inline: 4rem;
+        margin-inline: 17rem;
     }
 
     .about__title {
@@ -151,6 +151,7 @@
         line-height: 1.8rem;
         font-weight: 600;
         font-size: 1.1rem;
+        width: 48rem;
     }
 
     .about__button {

@@ -13,7 +13,7 @@ const About = () => {
 
         <p className='about__title p__poppins section__title'>OUR GALACTIC STORY</p>
 
-        <p className='about__description p__poppins'>GREETING EARTHLINGS!
+        <p className='about__description p__poppins'>GREETING EARTHLINGS! <br />
           We are Hyper Media, a full-service digital marketing agency
           with a mission to empower businesses to thrive in the ever-changing
           digital universe. Since 2019, we've been helping clients across

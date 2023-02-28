@@ -1,8 +1,8 @@
-.number__section{
-    margin-inline: 10rem;   
+.number__section {
+    margin-inline: 10rem;
 }
 
-.number__container{
+.number__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,7 +10,7 @@
 
     position: relative;
     bottom: 3rem;
- 
+
     padding-inline: 2.5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -19,127 +19,133 @@
     backdrop-filter: saturate(180%) blur(10px);
 }
 
-.number__container-box{
+.number__container-box {
     width: 150px;
 }
 
 
-.numbers{
-    color:green !important;
+.numbers {
+    color: green !important;
     font-weight: 700;
     font-size: 1.8rem;
 }
- 
-.percent_countup{
+
+.percent_countup {
     display: flex;
     justify-content: center;
 }
 
-.milestones{
+.milestones {
     color: white;
     font-size: 0.9rem;
     font-weight: 600;
-} 
+}
 
 @media (max-width: 576px) {
-    .number__section{
-    margin-inline: 1rem;   
-}
-
-.number__container{
-    align-items: flex-start;
-    padding-inline: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 1rem;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: saturate(180%) blur(10px);
-}
-
-.number__container-box{
-    width: 100px;
-}
-.numbers{
-    color:white;
-    font-weight: 700;
-    font-size: 1rem;
-}
-.milestones{
-    color: white;
-    font-size: 0.6rem;
-    font-weight: 600;
-}
-
-}
-
-@media (min-width: 767px){
-    .number__section{
-    margin-inline: 4rem;   
-}
-
-.number__container{
-    align-items: flex-start;
-    padding-inline: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 1rem;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: saturate(180%) blur(10px);
-}
-
-.number__container-box{
-    width: 100px;
-}
-.numbers{
-    color:white;
-    font-weight: 700;
-    font-size: 1rem;
-}
-.milestones{
-    color: white;
-    font-size: 0.6rem;
-    font-weight: 600;
-}
-
-}    
-
-@media (min-width: 992px){
-    .number__section{
-    margin-inline: 8rem;   
-}
- 
-.number__container{
-    align-items: flex-start;
-    padding-inline: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 1rem;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: saturate(180%) blur(10px);
-}
-
-.number__container-box{
-    width: 100px;
-}
-.numbers{
-    color:white;
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-.milestones{
-    color: white;
-    font-size: 0.6rem;
-    font-weight: 600;
-}
-
-}   
-
-@media (min-width: 1200px){
-    .number__section{
-        margin-inline: 5rem;   
+    .number__section {
+        margin-inline: 1rem;
     }
-    
-    .number__container{
+
+    .number__container {
+        align-items: flex-start;
+        padding-inline: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 1rem;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: saturate(180%) blur(10px);
+    }
+
+    .number__container-box {
+        width: 100px;
+    }
+
+    .numbers {
+        color: white;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    .milestones {
+        color: white;
+        font-size: 0.6rem;
+        font-weight: 600;
+    }
+
+}
+
+@media (min-width: 767px) {
+    .number__section {
+        margin-inline: 4rem;
+    }
+
+    .number__container {
+        align-items: flex-start;
+        padding-inline: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 1rem;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: saturate(180%) blur(10px);
+    }
+
+    .number__container-box {
+        width: 100px;
+    }
+
+    .numbers {
+        color: white;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    .milestones {
+        color: white;
+        font-size: 0.6rem;
+        font-weight: 600;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .number__section {
+        margin-inline: 8rem;
+    }
+
+    .number__container {
+        align-items: flex-start;
+        padding-inline: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 1rem;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: saturate(180%) blur(10px);
+    }
+
+    .number__container-box {
+        width: 100px;
+    }
+
+    .numbers {
+        color: white;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .milestones {
+        color: white;
+        font-size: 0.6rem;
+        font-weight: 600;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .number__section {
+        margin-inline: 5rem;
+    }
+
+    .number__container {
         align-items: flex-start;
         padding-inline: 6rem;
         height: 7rem;
@@ -149,16 +155,18 @@
         background: rgba(255, 255, 255, 0.1);
         backdrop-filter: saturate(180%) blur(10px);
     }
-    
-    .number__container-box{
+
+    .number__container-box {
         width: 100px;
     }
-    .numbers{
-        color:white;
+
+    .numbers {
+        color: white;
         font-weight: 700;
         font-size: 1.5rem;
     }
-    .milestones{
+
+    .milestones {
         color: white;
         font-size: 0.8rem;
         width: 8rem;
@@ -166,34 +174,36 @@
     }
 }
 
-@media screen and (min-width: 1400px){
-    .number__section{
-    margin-inline: 8rem;   
-}
+@media screen and (min-width: 1400px) {
+    .number__section {
+        margin-inline: 8rem;
+    }
 
-.number__container{
-    align-items: flex-start;
-    padding-inline: 5rem;
-    height: 7rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 1rem;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: saturate(180%) blur(10px);
-}
+    .number__container {
+        align-items: flex-start;
+        padding-inline: 12rem;
+        height: 7rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 1rem;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: saturate(180%) blur(10px);
+    }
 
-.number__container-box{
-    width: 100px;
-}
-.numbers{
-    color:white;
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-.milestones{
-    color: white;
-    font-size: 0.8rem;
-    width: 8rem;
-    font-weight: 600;
-}
+    .number__container-box {
+        width: 134px;
+    }
+
+    .numbers {
+        color: white;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .milestones {
+        color: white;
+        font-size: 0.8rem;
+        width: 9rem;
+        font-weight: 600;
+    }
 }
