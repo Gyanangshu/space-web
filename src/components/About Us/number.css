@@ -58,6 +58,7 @@
 
     .number__container-box {
         width: 100px;
+        margin-inline: 0.5rem;
     }
 
     .numbers {
