@@ -26,7 +26,7 @@ const About = () => {
           to revolutionize the digital landscape  and propel your business to
           new heights</p>
 
-          <a href="https://calendly.com/hypermediamarketing/15min?fbclid=IwAR3HbvsMJXo1M9mFre1rlzxXayN8n-pS-REHi_-t0HaXK1ME9CLRA6VW_gU&month=2023-02"><button class="about__button btn">
+          <a href="https://calendly.com/hypermediamarketing/15min?fbclid=IwAR3HbvsMJXo1M9mFre1rlzxXayN8n-pS-REHi_-t0HaXK1ME9CLRA6VW_gU&month=2023-02" target='__blank'><button class="about__button btn">
           <div>
             <p className='about__button-text p__poppins'>Get Your FREE Marketing Plan</p>
             <p className='hero__term p__poppins'>100% Free & No Obligation</p>

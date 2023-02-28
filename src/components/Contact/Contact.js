@@ -73,7 +73,7 @@ const Contact = () => {
             <img src={mail} alt="email" />
             <p className="info__text p__poppins">enquiry@hypermediaglobal.com</p>
           </div>
-
+ 
           <div className="info info__icons">
             <a href="https://www.instagram.com/hypermedia_group/?fbclid=IwAR0kgrAf9rHt_xYlRWQreMZw0KdloAK3fy0walrpe5JFVFfXtI5QkiVo8Vk" target='__blank'><img src={path1} className='icon__img' alt="instagram" /></a>
             <a href="https://www.facebook.com/hypermediagroup" target='__blank'><img src={path2} className='icon__img' alt="facebook" /></a>

@@ -48,15 +48,15 @@
    }
    
    
-   
    .btn .icon svg {
     width: 1.1em;
     transition: transform 0.3s;
     color: #7b52b9;
    }
    
-   .btn:hover .icon svg {
-    transform: translateX(0.1em);
+   .btn:hover {
+    transform: translateY(-0.1em);
+    background-image: linear-gradient(to bottom, #72ca85, #60c170, #4eb859, #3caf41, #27a524);
    }
    
    .btn:active .icon {

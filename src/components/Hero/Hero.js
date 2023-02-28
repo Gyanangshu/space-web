@@ -14,7 +14,7 @@ const Hero = () => {
         </div>
  
       <div className='hero__call'>
-      <a href="https://calendly.com/hypermediamarketing/15min?fbclid=IwAR3HbvsMJXo1M9mFre1rlzxXayN8n-pS-REHi_-t0HaXK1ME9CLRA6VW_gU&month=2023-02"><button class="btn">
+      <a href="https://calendly.com/hypermediamarketing/15min?fbclid=IwAR3HbvsMJXo1M9mFre1rlzxXayN8n-pS-REHi_-t0HaXK1ME9CLRA6VW_gU&month=2023-02" target='__blank'><button class="btn">
           <div>
             <p className='hero__button-text p__poppins'>Get Your FREE Marketing Plan</p>
             <p className='hero__term p__poppins'>100% Free & No Obligation</p>
