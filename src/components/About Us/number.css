@@ -177,12 +177,12 @@
 
 @media screen and (min-width: 1400px) {
     .number__section {
-        margin-inline: 8rem;
+        margin-inline: 10rem;
     }
 
     .number__container {
         align-items: flex-start;
-        padding-inline: 12rem;
+        padding-inline: 10rem;
         height: 7rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
